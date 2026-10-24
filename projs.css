@@ -1,0 +1,31 @@
+body {
+    background-color: lightskyblue;
+}
+
+table {
+    width: 80%;
+    margin: 30px ;
+    border: 2px solid black;
+    border-collapse: collapse;
+    box-shadow: 0 4px 10px #aaa;
+}
+
+th {
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid gray;
+}
+
+a {
+    background-color: yellow;
+}
+
+a:hover {
+    color: rgb(0, 255, 234);
+}

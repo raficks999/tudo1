@@ -1,0 +1,190 @@
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    background-color: cyan;
+    display: table;
+    margin: 0 auto;
+    padding: 5px 15px;
+}
+
+h2 {
+    background-color: blue;
+    color: white;
+    display: table;
+    margin: 0 auto;
+    padding: 5px 15px;
+}
+
+iframe {
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+}
+
+a {
+    background-color: aquamarine;
+    color: black
+}
+
+a:hover {
+    color:rgb(255, 1, 1)
+}
+
+body {
+    background-color: rgb(167, 82, 2);
+}
+
+.card {
+    width: 500px;
+    padding: 10px;
+    border: 5px solid black;
+    background-color: white;
+}
+
+.cardmeu {
+    width: 20px;
+    padding: 5px;
+    border: 5px solid black;
+    background-color: white;
+}
+
+ul, li {
+    text-align: center;
+}
+
+.texto1 {
+    text-align: center;
+    align-items: center;
+}
+
+.texto2 {
+    text-align: center;
+}
+
+.texto3 {
+    text-align: center;
+}
+
+iframe {
+    width: 500px;
+    height: 300px;
+}
+
+.bichinho {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 251, 0);
+    color: rgb(0, 0, 0);
+    display: table;
+    margin: 0 auto;
+    padding: 5px 15px;
+}
+
+.bichinho img {
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+}
+
+.textobicho {
+    flex: 1;
+}
+
+.lista {
+    background-color: aqua;
+    color: black;
+}
+
+.familia {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    display: table;
+    margin: 0 auto;
+    padding: 5px 15px;
+}
+
+.familia img {
+    width: 250px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.eumesmo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(174, 0, 255);
+    color: rgb(0, 0, 0);
+    display: table;
+    margin: 0 auto;
+    padding: 5px 15px;
+}
+
+.video2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(174, 0, 255);
+    color: rgb(0, 0, 0);
+    display: table;
+    margin: 0 auto;
+    padding: 5px 15px;
+}
+
+.video2:hover {
+    color: white;
+}
+
+.fut {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(174, 0, 255);
+    color: rgb(0, 0, 0);
+    display: table;
+    margin: 0 auto;
+    padding: 5px 15px;
+}
+
+.fut img {
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+}
+
+.fut:hover {
+    color: white;
+}
+
+.hi5 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    background-color: rgb(174, 0, 255);
+    color: rgb(0, 0, 0);
+    display: table;
+    margin: 0 auto;
+    padding: 5px 15px;
+}
+
+.hi5:hover {
+    color:white
+}

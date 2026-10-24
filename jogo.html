@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serpente Pixel | Jogar</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="site-header">
+        <a class="logo" href="index.html">Serpente Pixel</a>
+
+        <nav>
+            <a href="project.html">Início</a>
+            <a href="desenvolvedores.html">Desenvolvedor</a>
+            <a class="active" href="">Jogar</a>
+        </nav>
+    </header>
+
+    <main class="game-layout">
+        <section class="game-heading">
+            <p class="eyebrow">HORA DO DESAFIO</p>
+
+            <h1>Serpente <span>Pixel</span></h1>
+
+            <p>
+                Use as setas ou WASD para se movimentar. <br>
+                Pegue as frutas e não encoste nos obstáculos
+            </p>
+        </section>
+
+        <section class="game-pixel">
+            <div class="stats">
+                <div>
+                    <span>PONTUAÇÃO</span>
+                    <strong id="score">0</strong>
+                </div>
+
+                <div>
+                    <span>RECORDE</span>
+                    <strong id="best">0</strong>
+                </div>
+
+                <div>
+                    <span>VELOCIDADE</span>
+                    <strong id="level">1</strong>
+                </div>
+            </div>
+
+            <div class="canvas=wrap">
+                <canvas id="gameCanvas" width="600" height="400" aria-label="Tabuleiro do jogo Serpente Pixel"></canvas>
+
+                <div id="overlay" class="game-overlay">
+                    <div class="overlay-icon"></div>
+
+                    <h2 id="overlayTitle">Pronto pra jogar?</h2>
+
+                    <p id="overlayText">
+                        Colete as frutas, cresça e tente bater seu recorde.
+                    </p>
+
+                    <button id="startBtn" class="button" type="button">Iniciar jogo</button>
+                </div>
+            </div>
+
+            <div class="game-actions">
+                <p id="status" aria-live="polite">
+                    Pressione "INICIAR JOGO" para começar
+                </p>
+
+                <button id="pauseBtn" 
+                class="button button-secondary" 
+                type="button" 
+                disabled>
+                PAUSAR
+                </button>
+            </div>
+        </section>
+
+        <aside class="instructions">
+            <h2>Como Jogar</h2>
+
+            <div class="control-line">
+                <kbd>Seta pra Cima</kbd>
+                <kbd>Seta pra Esquerda</kbd>
+                <kbd>Seta pra Baixo</kbd>
+                <kbd>Seta pra Direita</kbd>
+                <span>ou use W A S D</span>
+            </div>
+
+            <ul>
+                <li>Cada fruta vale <strong>10 pontos</strong>.</li>
+                <li>A serpente cresce ao comer.</li>
+                <li>A velocidade aumenta a cada 50 pontos</li>
+                <li>Evite as paredes ou blocos e seu próprio corpo.</li>
+                <li>Pressione Espaço para pausar ou continuar</li>
+            </ul>
+
+            <p class="small-note">
+                Dica: Planeje suas curvas com atecedência para não ficar preso
+            </p>
+        </aside>
+    </main>
+    
+    <script src="game.js" type="text/javascript"></script>
+</body>
+</html>

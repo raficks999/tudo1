@@ -1,0 +1,20 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+a {
+    background-color: rgb(255, 238, 0);
+    text-align: center;
+}
+
+a:hover {
+    color: rgb(153, 0, 255)
+}
